@@ -1,129 +1,69 @@
-/* Master syles */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    font-family: "Tech Mono", sans-serif;
-    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    background: lightskyblue url(https://files.123freevectors.com/wp-content/original/156234-abstract-navy-blue-background.jpg);
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100vh;
 }
 
 .container {
-    display: grid;
-    grid-template-columns: 1fr;
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: auto;
 }
 
-/*Nav styles */
-.nav-wrapper {
-    display: flex;
-    justify-content: space-between;
-    padding: 38px;
-}
-
-.left-side {
-    display: flex;
-}
-
-.nav-wrapper > .left-side > div {
-    margin-right: 20px;
-    font-size: 0.9em;
-    text-transform: uppercase;
-}
-
-.nav-link-wrapper {
-    height: 22px;
-    border-bottom: 1px solid transparent;
-    transition: border-bottom 0.5s;
-}
-
-.nav-link-wrapper a {
-    color: #8a8a8a;
-    text-decoration: none;
-    transition: color 0.5s;
-}
-
-.nav-link-wrapper:hover {
-    border-bottom: 1px solid black;
-}
-
-.nav-link-wrapper a:hover {
-    color: black;
-}
-
-.active-nav-link {
-    border-bottom: 1px solid black;
-}
-
-.active-nav-link a {
-    color: black !important;
-}
-
-/*Portfolio Styles */
-
-.portfolio-items-wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
-.portfolio-item-wrapper {
-    position: relative;
-}
-
-.portfolio-img-background {
-    height: 350px;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.img-text-wrapper {
-    position: absolute;
-    top: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+header {
+    flex: 1;
     height: 100%;
-    text-align: center;
-    padding-left: 100px;
-    padding-right: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.logo-wrapper img {
-    width: 50%;
-    margin-bottom: 20px;
+header h1 {
+    font-size: 60px;
 }
 
-.img-text-wrapper .subtitle {
-    transition: 1s;
-    font-weight: 600;
-    color: transparent;
+.counters {
+    background: #0f479a;
+    color: #ffffff;
+    padding: 40px 20px;
+    border-top: 3px lightskyblue solid;
 }
 
-/*Needs to be more specific with selector */
-.img-text-wrapper:hover .subtitle {
-    font-weight: 600;
-    color: lightseagreen;
-}
-
-/*A class made here in CSS to be animated with JavaScript as a Funtion */
-.img-darken {
-    transition: 1s;
-    filter: brightness(10%);
-}
-
-
-/* About page */
-.two-column-wrapper {
+.counters .container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+    grid-template-columns: repeat(4,1fr);
+    text-align: center;
 }
 
-.profile-image-wrapper img {
-    width: 100%
+.counter i {
+    color: lightskyblue;
+    margin-bottom: 5px;
 }
 
-.profile-content-wrapper {
-    padding: 30px;
+.counters .counter {
+    font-size: 45px;
+    margin: 10px 0;
 }
 
-.profile-content-wrapper h1 {
-    color: lightseagreen;
-}
+@media(max-width: 700px) {
+    .counters .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .counters .container > div:nth-of-type(1),.counters .container > div:nth-of-type(2) {
+        border-bottom: 1px lightskyblue solid;
+        padding-bottom: 20px;
+    }}
