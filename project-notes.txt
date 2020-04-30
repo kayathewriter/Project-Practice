@@ -11,17 +11,19 @@ TODOs
     - adding the files
     - connecting files
 
-2. Navbar
-    - 2 links and a name
+2. Title in Center of Screen
+    - h1
+    - background image
+    - social media links
+    - google fonts
+    - icon and links for youtube, instagram, medium, linkedin
 
-3. Portfolio item grid
-    - images
-    - titles
-    - descriptions
-    - animations
-    - javascript
-4. About page
-    - image
-    - split column layout
-    - content
-    
+3. CSS
+    - font family
+    - url to img
+
+4. JavaScript Animation
+    - Not sure but for sure some functions
+    - and console.log
+
+
