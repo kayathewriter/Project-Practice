@@ -11,20 +11,17 @@ TODOs
     - adding the files
     - connecting files
 
-2. Video.mov file
-    - GIF STYLE Clip
-    - h1
-    - h3 or h4 or h5
-    - Read more button
+2. Navbar
+    - 2 links and a name
 
-3. About Page Info
-    - images of social media
+3. Portfolio item grid
+    - images
     - titles
-    - paragraph
-    - h3 or h4 Follow me on Social Media
-    - 4 Images for Socials
+    - descriptions
+    - animations
+    - javascript
 4. About page
     - image
     - split column layout
     - content
-
+    
