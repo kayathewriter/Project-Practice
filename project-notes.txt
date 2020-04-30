@@ -1,0 +1,27 @@
+Prequisites:
+
+- Text editor (My fav is VS Code, there is also Atom, Sublime, Text, and Notepad)
+- Web browser (Chrome, Duckduckgo, Mozilla, Edge, Opera, and more)
+
+
+TODOs
+
+1. Build the project
+    - creating the folder
+    - adding the files
+    - connecting files
+
+2. Navbar
+    - 2 links and a name
+
+3. Portfolio item grid
+    - images
+    - titles
+    - descriptions
+    - animations
+    - javascript
+4. About page
+    - image
+    - split column layout
+    - content
+    
