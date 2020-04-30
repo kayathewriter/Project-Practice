@@ -1,0 +1,30 @@
+Prequisites:
+
+- Text editor (My fav is VS Code, there is also Atom, Sublime, Text, and Notepad)
+- Web browser (Chrome, Duckduckgo, Mozilla, Edge, Opera, and more)
+
+
+TODOs
+
+1. Build the project
+    - creating the folder
+    - adding the files
+    - connecting files
+
+2. Video.mov file
+    - GIF STYLE Clip
+    - h1
+    - h3 or h4 or h5
+    - Read more button
+
+3. About Page Info
+    - images of social media
+    - titles
+    - paragraph
+    - h3 or h4 Follow me on Social Media
+    - 4 Images for Socials
+4. About page
+    - image
+    - split column layout
+    - content
+
